@@ -6,6 +6,7 @@
 .topnav {
     overflow: hidden;
     background-color: #333;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
   
 .topnav a {
@@ -25,4 +26,16 @@
 .topnav a.active {
     background-color: #04AA6D;
     color: white;
+}
+
+#intro {
+    width: 1800px;
+    height: 600px;
+    background-color: cyan;
+    border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 10px;
 }
