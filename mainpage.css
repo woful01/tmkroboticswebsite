@@ -6,6 +6,9 @@
 .topnav {
     overflow: hidden;
     background-color: #333;
+    border: #333 solid 1px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
   
 .topnav a {
@@ -25,4 +28,29 @@
 .topnav a.active {
     background-color: #04AA6D;
     color: white;
+}
+
+#intro {
+    overflow: hidden;
+    color: white;
+    max-width: 1800px;
+    height: 800px;
+    background-image: url("vedatzi.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 10px;
+}
+.intro-white1 {
+    background-color: rgba(255, 255, 255, 0.45);
+    width: 650px;
+    color: rgb(21, 22, 39);
+    height: 800px;
+    display: block;
+    left: 750px;
+    position: absolute;
 }
